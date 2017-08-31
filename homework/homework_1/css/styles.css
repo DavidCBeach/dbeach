@@ -1,0 +1,35 @@
+.picked{
+    font-size: 1.3em;
+    background-color: red;
+}
+body{
+    background-color: #000066;
+    color:white;
+}
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.0em;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    border-bottom:2px red solid;
+    font-size: 1.3em;
+    transition: .1s;
+}
+br{
+    text-align: left;
+}
+img{
+    vertical-align: middle;
+    display: inline-block;
+}
+div{
+    vertical-align: middle;
+    display:inline-block;
+    text-align: center;
+}
+.links{
+    color:grey;
+}
