@@ -1,0 +1,53 @@
+header {
+    font-size: 87px;
+    color: yellow;
+}
+
+body {
+    
+    background-color: black;
+    color: white;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+#outside{
+    text-align: center;
+}
+#spring, #autumn {
+    float: left;
+
+}
+ 
+#spring, #autumn, #summer, #winter{
+    text-align: center;
+}
+
+#springpic {
+    border-top-left-radius: 87px; 
+    background: black;
+}
+
+#autumnpic {
+    border-bottom-left-radius: 87px;
+    background: black;
+}
+#summerpic {
+    border-top-right-radius: 87px;
+    background: black;
+}
+#winterpic {
+    border-bottom-right-radius: 87px;
+    background: black;
+}
+
+#outside{
+    width:1430px;
+}
+
+img:hover {
+    position: relative;
+    width:125%;
+    height: 125%;
+    transition: 3.0s;
+}

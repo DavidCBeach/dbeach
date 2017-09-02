@@ -5,6 +5,11 @@
 body{
     background-color: #000066;
     color:white;
+    margin:50px;
+    font-family: 'Press Start 2P', cursive;
+}
+h1{
+    font-family: 'Monoton';
 }
 nav a{
     padding:15px;
@@ -29,7 +34,12 @@ div{
     vertical-align: middle;
     display:inline-block;
     text-align: center;
+    width:530px;
 }
 .links{
     color:grey;
+}
+ul{
+    list-style-position: outside;
+    list-style: square;
 }

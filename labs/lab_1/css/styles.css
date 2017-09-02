@@ -19,9 +19,6 @@ nav a:hover {
     font-size: 2em;
     transition: .9s;
 }
-figure, div{
-    float:left;
-}
 #me, #welcomeText {
     float: left;
 }
@@ -47,9 +44,8 @@ td strong{
     background-color:#753900;
     text-align: center
 }
-ul{
-    text-align:left;
-    padding-left:200px;
+#content{
+    text-align: center;
 }
 .hobby{
     color:yellow;
@@ -60,4 +56,8 @@ ul{
 .picked{
     font-size: 2.5em;
     background-color: red;
+}
+
+#list{
+    text-align: center;
 }
