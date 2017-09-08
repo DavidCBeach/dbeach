@@ -1,0 +1,9 @@
+[08-Sep-2017 19:28:41 UTC] PHP Parse error:  syntax error, unexpected '");"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/practice/randomColor.php on line 15
+[08-Sep-2017 19:28:42 UTC] PHP Parse error:  syntax error, unexpected '");"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/practice/randomColor.php on line 15
+[08-Sep-2017 19:36:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/practice/randomColor.php on line 5
+[08-Sep-2017 19:36:15 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/practice/randomColor.php on line 5
+[08-Sep-2017 19:36:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/practice/randomColor.php on line 5
+[08-Sep-2017 19:36:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/practice/randomColor.php on line 5
+[08-Sep-2017 19:37:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/practice/randomColor.php on line 5
+[08-Sep-2017 19:37:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/practice/randomColor.php on line 5
+[08-Sep-2017 19:37:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/practice/randomColor.php on line 5
