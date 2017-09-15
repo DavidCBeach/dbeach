@@ -32,8 +32,8 @@
                 $nameAdj = $adjArr[($num) + 1];
             }
             echo "<div class='album'>";
-            echo "<img class='backimg' src='img/h$backgroundImg.jpg' >";
-            echo "<img id='forimg$i' src='img/h$forgroundImg.jpg' >";
+            echo "<img class='backimg' src='img/h$backgroundImg.jpg' alt="backimage" >";
+            echo "<img id='forimg$i' src='img/h$forgroundImg.jpg' alt="frontimage">";
             echo "<p id='title$i'>$nameAdj $nameNoun</p>";
             echo "</div>";
             $lastnameAdj = $nameAdj;
