@@ -1,0 +1,77 @@
+body{
+    color:white;
+    background-color: #000044;
+}
+
+.collection{
+    text-align: left;
+    margin-left: 20px;
+}
+.backimg{
+    width:400px;
+    height:400px;
+    
+    vertical-align: middle;
+    
+}
+#forimg0{
+    width:300px;
+    height:300px;
+    position:absolute;
+    left: 100px;
+    top:230px;
+}
+#forimg1{
+    width:300px;
+    height:300px;
+    position:absolute;
+    left: 500px;
+    top:230px;
+}
+#forimg2{
+    width:300px;
+    height:300px;
+    position:absolute;
+    left: 900px;
+    top:230px;
+}
+#title0{
+    font-family: 'Amatic SC', cursive;
+    position:absolute;
+    left: 105px;
+    top:230px;
+    color:white;
+    font-size: 30px;
+    background-color: rgb(0,0,0,1);
+}
+#title1{
+    font-family: 'Amatic SC', cursive;
+    position:absolute;
+    left: 505px;
+    top:230px;
+    color:white;
+    font-size: 30px;
+    background-color: rgb(0,0,0,1);
+}
+#title2{
+    font-family: 'Amatic SC', cursive;
+    position:absolute;
+    left: 905px;
+    top:230px;
+    color:white;
+    font-size: 30px;
+    background-color: rgb(0,0,0,1);
+}
+.album{
+    width:400px;
+    height:400px;
+    text-align: center;
+    display: inline-block;
+}
+#title{
+    font-size: 40px;
+}
+#button{
+    color:white;
+    background-color: red;
+}

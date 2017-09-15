@@ -7,3 +7,5 @@
 [08-Sep-2017 19:37:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/practice/randomColor.php on line 5
 [08-Sep-2017 19:37:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/practice/randomColor.php on line 5
 [08-Sep-2017 19:37:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/practice/randomColor.php on line 5
+[13-Sep-2017 19:16:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/practice/php_arrays.php on line 6
+[13-Sep-2017 19:17:00 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/practice/php_arrays.php on line 6
