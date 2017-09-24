@@ -1,0 +1,5 @@
+[19-Sep-2017 23:23:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/labs/lab_3/Lab3/lab3.php on line 11
+[19-Sep-2017 23:23:26 UTC] PHP Stack trace:
+[19-Sep-2017 23:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab_3/Lab3/lab3.php:0
+[19-Sep-2017 23:31:18 UTC] PHP Parse error:  syntax error, unexpected '$winnerAmount' (T_VARIABLE) in /home/ubuntu/workspace/labs/lab_3/Lab3/lab3.php on line 8
+[19-Sep-2017 23:31:19 UTC] PHP Parse error:  syntax error, unexpected '$winnerAmount' (T_VARIABLE) in /home/ubuntu/workspace/labs/lab_3/Lab3/lab3.php on line 8

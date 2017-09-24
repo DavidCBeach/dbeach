@@ -7,3 +7,15 @@
 [06-Sep-2017 20:31:31 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/labs/lab_2/index.php on line 11
 [06-Sep-2017 20:31:31 UTC] PHP Stack trace:
 [06-Sep-2017 20:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab_2/index.php:0
+[22-Sep-2017 19:29:50 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/labs/lab_4/api/pixabayAPI.php:5) in /home/ubuntu/workspace/labs/lab_4/api/pixabayAPI.php on line 5
+[22-Sep-2017 19:29:50 UTC] PHP Stack trace:
+[22-Sep-2017 19:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab_4/index.php:0
+[22-Sep-2017 19:29:50 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/labs/lab_4/api/pixabayAPI.php:5) in /home/ubuntu/workspace/labs/lab_4/api/pixabayAPI.php on line 5
+[22-Sep-2017 19:29:50 UTC] PHP Stack trace:
+[22-Sep-2017 19:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab_4/index.php:0
+[22-Sep-2017 19:29:54 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/labs/lab_4/api/pixabayAPI.php:5) in /home/ubuntu/workspace/labs/lab_4/api/pixabayAPI.php on line 5
+[22-Sep-2017 19:29:54 UTC] PHP Stack trace:
+[22-Sep-2017 19:29:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab_4/index.php:0
+[22-Sep-2017 20:09:52 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/labs/lab_4/index.php on line 43
+[22-Sep-2017 20:09:52 UTC] PHP Stack trace:
+[22-Sep-2017 20:09:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab_4/index.php:0
