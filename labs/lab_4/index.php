@@ -1,10 +1,33 @@
 <?php
     $backgroundImage = "img/sea.jpg";
-
+    include 'api/pixabayAPI.php';
     if(isset($_GET['keyword']))
     {
-        include 'api/pixabayAPI.php';
-        $imageURLs = getImageURLs($_GET['keyword']);
+        
+        if(!isset($_GET['category'])|| $_GET['category']=="")
+        {
+            if(isset($_GET['layout']))
+            {
+                 $imageURLs = getImageURLs($_GET['keyword'],$_GET['layout']);
+            }
+            else
+            {
+                  $imageURLs = getImageURLs($_GET['keyword']);
+            }
+              
+        }else
+        {
+            if(isset($_GET['layout']))
+            {
+                 $imageURLs = getImageURLs($_GET['category'],$_GET['layout']);
+            }
+            else
+            {
+                $imageURLs = getImageURLs($_GET['category']);
+            }
+                
+        }
+        
         //print_r($imageURLs);
         $backgroundImage = $imageURLs[array_rand($imageURLs)];
     }
@@ -16,8 +39,8 @@
     <head>
         <title>Image Carousel</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         
         <style>
             @import url("css/styles.css");
@@ -31,6 +54,16 @@
         
         <form>
             <input type = "text" name="keyword" placeholder="Keyword">
+            
+            <input type="radio" id="horizon"name="layout" value="horizontal"><label for="horizon">Horizontal</label>
+            <input type="radio" id="vertic"name="layout" value="vertical"><label for="vertic">Vertical</label>
+            <select name="category">
+                <option value="">- Select One -</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Fish">Fish</option>
+                <option value="California">California</option>
+            </select>
             <input type = "submit" value = "Submit"/>
         </form>
 
@@ -39,17 +72,20 @@
                 echo "<h2> Type a keyword to display a slideshow <br/> with random images from Pixabay.com </h2>";
                 
             } else {
+                ?>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <?php
                 for($i = 0; $i < 5; $i++)
                 {
                     do{
                         $randomIndex = rand(0, count($imageURLs));
                     } while (!isset($imageURLs[$randomIndex]));
-                    echo "<img src='".$imageURLs[$randomIndex]. "' width='200'>";
+                    //echo "<img src='".$imageURLs[$randomIndex]. "' width='200'>";
                     unset($imageURLs[$randomIndex]);
                 }
             
-        ?>
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                ?>
+                    
                         <ol class="carousel-indecators">
                             <?php
                                 for($i = 0; $i < 5; $i++)

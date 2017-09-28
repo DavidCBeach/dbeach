@@ -1,0 +1,6 @@
+[27-Sep-2017 19:36:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/practice/zodiac/index.php on line 14
+[27-Sep-2017 19:44:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/practice/zodiac/index.php on line 30
+[27-Sep-2017 19:47:50 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/practice/zodiac/index.php on line 11
+[27-Sep-2017 19:47:55 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/practice/zodiac/index.php on line 11
+[27-Sep-2017 20:03:50 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/ubuntu/workspace/practice/zodiac/index.php on line 7
+[27-Sep-2017 20:04:49 UTC] PHP Parse error:  syntax error, unexpected '$ii' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/practice/zodiac/index.php on line 21
