@@ -28,7 +28,6 @@
                 
         }
         
-        //print_r($imageURLs);
         $backgroundImage = $imageURLs[array_rand($imageURLs)];
     }
 
