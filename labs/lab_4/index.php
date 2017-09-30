@@ -30,7 +30,7 @@
         
         $backgroundImage = $imageURLs[array_rand($imageURLs)];
     }
-
+   
 ?>
 
 <!DOCTYPE html>
@@ -52,10 +52,19 @@
         <br/><br/>
         
         <form>
-            <input type = "text" name="keyword" placeholder="Keyword">
+            <input id="textbox"type = "text" name="keyword" placeholder="Keyword">
+            <span id="box">
+                <input type="radio" id="horizon"name="layout" value="horizontal"  checked
+            ><label for="horizon">Horizontal</label>
+            <input type="radio" id="vertic"name="layout" value="vertical"
+            <?php
+                if ($_GET['layout']=="vertical") {
+                    echo "checked";
+                }
+             
+             ?>><label for="vertic">Vertical</label>
+            </span>
             
-            <input type="radio" id="horizon"name="layout" value="horizontal"><label for="horizon">Horizontal</label>
-            <input type="radio" id="vertic"name="layout" value="vertical"><label for="vertic">Vertical</label>
             <select name="category">
                 <option value="">- Select One -</option>
                 <option value="Dog">Dog</option>
@@ -63,10 +72,17 @@
                 <option value="Fish">Fish</option>
                 <option value="California">California</option>
             </select>
-            <input type = "submit" value = "Submit"/>
+            <input id = "submit"type = "submit" value = "Submit"/>
         </form>
 
         <?php
+        if (empty($_GET['keyword'])  && empty($_GET['category'])  ) {
+            
+                        echo "<h2 style='color:red'> Error! You must enter a keyword or category </h2>";
+                        return;
+                        exit;
+            
+                 }
             if(!isset($imageURLs)){
                 echo "<h2> Type a keyword to display a slideshow <br/> with random images from Pixabay.com </h2>";
                 

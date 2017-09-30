@@ -20,3 +20,17 @@
 select{
     color:black;
 }
+#submit{
+    color: green;
+    background-color: white;
+    display: inline-block;
+    
+}
+#textbox{
+    color:green;
+    padding-right: 90px;
+    margin:50px;
+}
+#box{
+    background-color: black;
+}
