@@ -76,20 +76,21 @@
         </form>
 
         <?php
-        if (empty($_GET['keyword'])  && empty($_GET['category'])  ) {
-            
-                        echo "<h2 style='color:red'> Error! You must enter a keyword or category </h2>";
-                        return;
-                        exit;
-            
-                 }
-            if(!isset($imageURLs)){
+        
+            if(!isset($imageURLs) || !isset($_GET['keyword'])){
                 echo "<h2> Type a keyword to display a slideshow <br/> with random images from Pixabay.com </h2>";
                 
             } else {
                 ?>
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <?php
+                if (empty($_GET['keyword'])  && empty($_GET['category'])  ) {
+            
+                        echo "<h2 style='color:red'> Error! You must enter a keyword or category </h2>";
+                        return;
+                        exit;
+            
+                 }
                 for($i = 0; $i < 5; $i++)
                 {
                     do{
