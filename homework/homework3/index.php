@@ -97,7 +97,7 @@
              ?>>Birds</option>
             </select>
             
-            <input id = "submit"type = "submit" value = "Submit"/>
+            
             <span id=options class=title>Options: </span>
                <input type="checkbox" name="optiont" value="technical"<?php
                 if ($_GET['optiont']=="technical" ) {
@@ -111,7 +111,8 @@
                 }
              
              ?>> <label for="picture">Picture</label>
-            <form action="http://www.html.am/html-codes/forms/html-form-tag-action.cfm" target="result" method="get">
+             <input id = "submit"type = "submit" value = "Submit"/>
+            <form method="get">
 
      <div id = help>try keywords: domestic cat,tiger, lion, tuna, goldfish, salmon, parrot, hummingbird, owl</div>
    <div id="info">
