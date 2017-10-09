@@ -58,3 +58,51 @@
 [14-Sep-2017 00:38:55 UTC] PHP Stack trace:
 [14-Sep-2017 00:38:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework_2/index.php:0
 [15-Sep-2017 02:41:57 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/homework/homework2/index.php on line 32
+[08-Oct-2017 20:10:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 54
+[08-Oct-2017 20:10:51 UTC] PHP Stack trace:
+[08-Oct-2017 20:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:10:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 61
+[08-Oct-2017 20:10:51 UTC] PHP Stack trace:
+[08-Oct-2017 20:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 54
+[08-Oct-2017 20:11:13 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 61
+[08-Oct-2017 20:11:13 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 54
+[08-Oct-2017 20:11:17 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 61
+[08-Oct-2017 20:11:17 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 54
+[08-Oct-2017 20:11:21 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 61
+[08-Oct-2017 20:11:21 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 54
+[08-Oct-2017 20:11:25 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 61
+[08-Oct-2017 20:11:25 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 54
+[08-Oct-2017 20:11:33 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 20:11:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 61
+[08-Oct-2017 20:11:33 UTC] PHP Stack trace:
+[08-Oct-2017 20:11:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[08-Oct-2017 21:39:27 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/homework/homework3/index.php on line 21
+[08-Oct-2017 21:51:09 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/homework/homework3/index.php on line 125
+[08-Oct-2017 21:51:36 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/homework/homework3/index.php on line 125
+[08-Oct-2017 21:51:48 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/homework/homework3/index.php on line 125
+[08-Oct-2017 21:51:48 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/homework/homework3/index.php on line 125
+[09-Oct-2017 21:13:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 149
+[09-Oct-2017 21:13:48 UTC] PHP Stack trace:
+[09-Oct-2017 21:13:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[09-Oct-2017 21:17:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/homework/homework3/index.php on line 164
+[09-Oct-2017 21:17:10 UTC] PHP Stack trace:
+[09-Oct-2017 21:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
+[09-Oct-2017 21:22:24 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/ubuntu/workspace/homework/homework3/index.php on line 133

@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+body{
+    color:#000066;
+    background-color: #eeeeee;
+    margin-left: 50px;
+    font-family: 'Crete Round', serif;
+    text-align: left;
+}
+
+#info{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+#submit{
+    color:white;
+    background-color: red;
+    width:100px;
+    height: auto;
+}
+p{
+    width: 500px;
+}
+.title{
+    border-color: #000066;
+    border-width: 2px;
+    border-style: solid;
+}
+#help{
+    color:#999999;
+}
+#submit:hover{
+    color:red;
+    background-color: white;
+}
