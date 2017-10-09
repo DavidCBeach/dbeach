@@ -118,7 +118,11 @@
        
 
 <?php
-$picture = false;
+if(!isset($_GET['keyword']))
+{
+    echo "enter a keyword, choose a size, choose a category, choose options, press submit";
+} else{
+    $picture = false;
 if(isset($_GET['optionp']))
 {
     $picture = true;   
@@ -193,6 +197,8 @@ if($_GET['keyword'] != "")
             }
         }
     }
+}
+
 }
 
 ?>
