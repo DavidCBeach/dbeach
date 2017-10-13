@@ -38,9 +38,9 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'config';
 /* Server parameters */
-$cfg['Servers'][$i]['user']= 'b187db0343a09b';
+$cfg['Servers'][$i]['user']= 'bc1caf57472822';
 $cfg['Servers'][$i]['host'] = 'us-cdbr-iron-east-05.cleardb.net';
-$cfg['Servers'][$i]['password'] = "09b42118";
+$cfg['Servers'][$i]['password'] = "55c0d40e";
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 /**
