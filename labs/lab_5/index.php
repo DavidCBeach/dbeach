@@ -116,3 +116,10 @@ function displayDevices(){
     <?=displayDevices()?>
     </body>
 </html>
+
+
+
+
+
+
+
