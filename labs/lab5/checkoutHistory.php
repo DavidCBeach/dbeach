@@ -50,6 +50,9 @@ function displayHistory(){
 <html>
     <head>
         <title>Checkout History </title>
+        <style>
+            @import url("css/styles.css");
+        </style>
     </head>
     <body>
         <h2> Checkout History </h2>
