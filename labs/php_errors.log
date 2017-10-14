@@ -693,3 +693,8 @@ Stack trace:
 #1 /home/ubuntu/workspace/labs/lab5/index.php(112): displayDevices()
 #2 {main}
   thrown in /home/ubuntu/workspace/labs/lab5/index.php on line 68
+[14-Oct-2017 04:22:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'ip-10-123-166-227.ec2.internal' (using password: NO)' in /home/ubuntu/workspace/labs/lab_5/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab_5/index.php(10): PDO->__construct('mysql:host=us-c...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/lab_5/index.php on line 10
