@@ -14,12 +14,7 @@
             
             
         </form>
-         <?php
-            session_start();
-            if($_SESSION['loginError'] == true){
-                echo "<p>Incorrect username or password...</p>";
-            }
-        ?>
+        
         
     </body>
 </html>

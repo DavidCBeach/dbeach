@@ -27,13 +27,13 @@
     if(empty($record))
     {
         echo "wrong username or password!";
-    } else {
-     $_SESSION['loginError'] = false;
-    $_SESSION['username'] = $record['userName'];
-    $_SESSION['adminFullName'] = $record['firstName'] . " " . $record['lastName'];
-    header("Location: admin.php"); // redirect to admin portal
+    }
+    else{
+        $_SESSION['username'] = $record['username'];
+        $_SESSION['adminFullName'] = $record['firstName']. " " . $record['lastName'];
+        header("Location: admin.php");
+    }
     
-}
     //echo $password;
     
 
