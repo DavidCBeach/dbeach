@@ -26,7 +26,10 @@
     
     if(empty($record))
     {
-        echo "wrong username or password!";
+         echo "<script>
+        alert('Wrong Password');
+        location='index.php';
+        </script>";
     }
     else{
         $_SESSION['username'] = $record['username'];
