@@ -95,11 +95,21 @@ function displayProducts(){
 <html>
     <head>
         <title>Team Project: Shopping Cart</title>
+<<<<<<< HEAD
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+         <div class = "jumbotron">
+        <h1 id="banner">Farm Fresh: Fruits, Veggies, and Nuts</h1>
+        </div>
+=======
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <meta name="theme-color" content="#ffffff">
+>>>>>>> 4ab6503129c075c0400933c66296f44aef7122c0
     </head>
     <body >
-        
-        <h1> CSUMB Market: Fruits, Veggies, Nuts </h1>
-        <div id = input>
+        <div class = "outer">
+        <div id = display>
         <form>
             Product: <input type="text" name="productName" placeholder="Product Name"/>
             Type: 
@@ -120,17 +130,14 @@ function displayProducts(){
             
             <input type="submit" value="Search!" name="submit" >
         </form>
-        </div>
         
         <hr>
-        <a href="cart.php">Look at cart</a>
-        <div id = display>
-        <?=displayProducts()?>
-        </div>
+        <a href="cart.php">Look at cart <br/></a>
         
-        <div id = css>
-        <iframe name="checkoutHistory" width="675" height="771" allowtransparency="true" style="background: #d5e1df;"></iframe>
-        <iframe name="description" width="675" height="771" allowtransparency="true" style="background: #d5e1df;"></iframe>
-        </div>
+        <?=displayProducts()?>
+        </div> <!-- display -->
+        
+        <iframe name="checkoutHistory" height="500" allowtransparency="true" style="background: #d5e1df;"></iframe>
+        </div> <!-- outer -->
     </body>
 </html>
