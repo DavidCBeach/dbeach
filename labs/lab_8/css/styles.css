@@ -1,0 +1,32 @@
+#taken{
+ color:red;   
+}
+#good{
+    color:green;
+}
+body{
+    background-color:#000066;
+    color:white;
+    text-align: center;
+    font-size: 10;
+}
+#submit{
+    color:#660000;
+    background-color: white;
+    height:100px;
+}
+input{
+    background-color: #AAAAAA;
+    color:#000066;
+    border-radius: 2px;
+    border: 0.3px solid white;
+    padding: 10px;
+    width: 200px;
+    height: 15px; 
+}
+form{
+    text-align: left;
+    width:1000px;
+    height:1000px;
+    background-color:#000069;
+}
