@@ -818,3 +818,39 @@ Stack trace:
 #0 /home/ubuntu/workspace/dbeach/labs/lab_8/checkUsername.php(17): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/dbeach/labs/lab_8/checkUsername.php on line 17
+[29-Nov-2017 21:15:23 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php on line 14
+[29-Nov-2017 21:15:23 UTC] PHP Stack trace:
+[29-Nov-2017 21:15:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:0
+[29-Nov-2017 21:15:23 UTC] PHP   2. getPetList() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:16
+[29-Nov-2017 21:18:01 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php on line 14
+[29-Nov-2017 21:18:01 UTC] PHP Stack trace:
+[29-Nov-2017 21:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:0
+[29-Nov-2017 21:18:01 UTC] PHP   2. getPetList() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:16
+[29-Nov-2017 21:18:03 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php on line 14
+[29-Nov-2017 21:18:03 UTC] PHP Stack trace:
+[29-Nov-2017 21:18:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:0
+[29-Nov-2017 21:18:03 UTC] PHP   2. getPetList() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:16
+[29-Nov-2017 21:18:08 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php on line 14
+[29-Nov-2017 21:18:08 UTC] PHP Stack trace:
+[29-Nov-2017 21:18:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:0
+[29-Nov-2017 21:18:08 UTC] PHP   2. getPetList() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:16
+[29-Nov-2017 21:18:09 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php on line 14
+[29-Nov-2017 21:18:09 UTC] PHP Stack trace:
+[29-Nov-2017 21:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:0
+[29-Nov-2017 21:18:09 UTC] PHP   2. getPetList() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:16
+[29-Nov-2017 21:18:11 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php on line 14
+[29-Nov-2017 21:18:11 UTC] PHP Stack trace:
+[29-Nov-2017 21:18:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:0
+[29-Nov-2017 21:18:11 UTC] PHP   2. getPetList() /home/ubuntu/workspace/dbeach/labs/lab_9/adoption.php:16
+[29-Nov-2017 21:20:46 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/dbeach/labs/lab_9/adoptions.php on line 14
+[29-Nov-2017 21:20:46 UTC] PHP Stack trace:
+[29-Nov-2017 21:20:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoptions.php:0
+[29-Nov-2017 21:20:46 UTC] PHP   2. getPetList() /home/ubuntu/workspace/dbeach/labs/lab_9/adoptions.php:16
+[01-Dec-2017 21:03:04 UTC] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dbeach/labs/lab_9/adoptions.php on line 104
+[01-Dec-2017 21:03:04 UTC] PHP Stack trace:
+[01-Dec-2017 21:03:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoptions.php:0
+[01-Dec-2017 21:03:04 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dbeach/labs/lab_9/adoptions.php on line 104
+[01-Dec-2017 21:03:04 UTC] PHP Stack trace:
+[01-Dec-2017 21:03:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/labs/lab_9/adoptions.php:0
+[02-Dec-2017 03:33:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/dbeach/labs/lab_10/index.php on line 42
+[02-Dec-2017 04:32:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/dbeach/labs/lab_9/index.php on line 16

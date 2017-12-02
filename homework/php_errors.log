@@ -106,3 +106,131 @@
 [09-Oct-2017 21:17:10 UTC] PHP Stack trace:
 [09-Oct-2017 21:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/homework/homework3/index.php:0
 [09-Oct-2017 21:22:24 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/ubuntu/workspace/homework/homework3/index.php on line 133
+[25-Nov-2017 00:32:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 00:32:26 UTC] PHP Stack trace:
+[25-Nov-2017 00:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 00:32:26 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 00:32:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 00:32:26 UTC] PHP Stack trace:
+[25-Nov-2017 00:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 00:32:26 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:39:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:39:48 UTC] PHP Stack trace:
+[25-Nov-2017 01:39:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:39:48 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:39:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:39:48 UTC] PHP Stack trace:
+[25-Nov-2017 01:39:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:39:48 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:41:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 11
+[25-Nov-2017 01:41:00 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:00 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:11
+[25-Nov-2017 01:41:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 11
+[25-Nov-2017 01:41:03 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:03 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:11
+[25-Nov-2017 01:41:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 11
+[25-Nov-2017 01:41:04 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:04 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:11
+[25-Nov-2017 01:41:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 11
+[25-Nov-2017 01:41:04 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:04 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:11
+[25-Nov-2017 01:41:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 11
+[25-Nov-2017 01:41:06 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:11
+[25-Nov-2017 01:41:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 11
+[25-Nov-2017 01:41:07 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:07 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:11
+[25-Nov-2017 01:41:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 11
+[25-Nov-2017 01:41:11 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:11 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:11
+[25-Nov-2017 01:41:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 11
+[25-Nov-2017 01:41:11 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:11 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:11
+[25-Nov-2017 01:41:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:41:47 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:47 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:41:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:41:47 UTC] PHP Stack trace:
+[25-Nov-2017 01:41:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:41:47 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:42:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:42:59 UTC] PHP Stack trace:
+[25-Nov-2017 01:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:42:59 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:43:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:43:04 UTC] PHP Stack trace:
+[25-Nov-2017 01:43:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:43:04 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:43:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:43:06 UTC] PHP Stack trace:
+[25-Nov-2017 01:43:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:43:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:43:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:43:06 UTC] PHP Stack trace:
+[25-Nov-2017 01:43:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:43:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:43:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:43:06 UTC] PHP Stack trace:
+[25-Nov-2017 01:43:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:43:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:43:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:43:07 UTC] PHP Stack trace:
+[25-Nov-2017 01:43:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:43:07 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:45:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:45:56 UTC] PHP Stack trace:
+[25-Nov-2017 01:45:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:45:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:45:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:45:56 UTC] PHP Stack trace:
+[25-Nov-2017 01:45:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:45:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:46:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:46:02 UTC] PHP Stack trace:
+[25-Nov-2017 01:46:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:46:02 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:46:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:46:03 UTC] PHP Stack trace:
+[25-Nov-2017 01:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:46:03 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:46:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php on line 10
+[25-Nov-2017 01:46:08 UTC] PHP Stack trace:
+[25-Nov-2017 01:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:0
+[25-Nov-2017 01:46:08 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/dbeach/homework/homework5/insertSearch.php:10
+[25-Nov-2017 01:54:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php on line 8
+[25-Nov-2017 01:54:03 UTC] PHP Stack trace:
+[25-Nov-2017 01:54:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php:0
+[25-Nov-2017 01:54:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dbeach/homework/homework5/getHistory.php on line 9
+[25-Nov-2017 01:54:04 UTC] PHP Stack trace:
+[25-Nov-2017 01:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/getHistory.php:0
+[25-Nov-2017 01:54:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php on line 8
+[25-Nov-2017 01:54:04 UTC] PHP Stack trace:
+[25-Nov-2017 01:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php:0
+[25-Nov-2017 01:54:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dbeach/homework/homework5/getHistory.php on line 9
+[25-Nov-2017 01:54:04 UTC] PHP Stack trace:
+[25-Nov-2017 01:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/getHistory.php:0
+[25-Nov-2017 01:55:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dbeach/homework/homework5/getHistory.php on line 9
+[25-Nov-2017 01:55:01 UTC] PHP Stack trace:
+[25-Nov-2017 01:55:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/getHistory.php:0
+[25-Nov-2017 01:55:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dbeach/homework/homework5/getHistory.php on line 9
+[25-Nov-2017 01:55:01 UTC] PHP Stack trace:
+[25-Nov-2017 01:55:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/homework/homework5/getHistory.php:0
+[25-Nov-2017 01:55:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'namePlace' in 'field list'' in /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php on line 9
+[25-Nov-2017 01:55:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'namePlace' in 'field list'' in /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/homework/homework5/getNumber.php on line 9

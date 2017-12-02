@@ -42,3 +42,6 @@ p{
     color:red;
     background-color: white;
 }
+#number,#histories{
+    font-size: 4px;
+}
