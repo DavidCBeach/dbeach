@@ -2,11 +2,12 @@
 
 <html>
     <head>
-        <title> Lab 6: Admin Login Page </title>
+        <title> David Beach's Beaches</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <h1> Admin Login </h1>
-        <form method="POST" action="loginProcess.php">
+        <form method="POST" action="checkLogin.php">
             Username: <input type="text" name="username"/> <br />
             
             Password: <input type="password" name= "password"/> <br />
@@ -14,12 +15,7 @@
             
             
         </form>
-         <?php
-            session_start();
-            if($_SESSION['loginError'] == true){
-                echo "<p>Incorrect username or password...</p>";
-            }
-        ?>
+        
         
     </body>
 </html>

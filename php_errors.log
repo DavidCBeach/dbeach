@@ -14,3 +14,89 @@
 [11-Oct-2017 19:52:46 UTC] PHP Stack trace:
 [11-Oct-2017 19:52:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/practice/sqljoins.php:0
 [11-Oct-2017 19:52:46 UTC] PHP   2. getUsersAndDept() /home/ubuntu/workspace/practice/sqljoins.php:31
+[05-Dec-2017 01:31:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/dbeach/final_project/admin.php on line 74
+[05-Dec-2017 01:43:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_c95c62d6327a93c.fp_product' doesn't exist' in /home/ubuntu/workspace/dbeach/final_project/main.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/main.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/dbeach/final_project/main.php(116): getBeachTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/main.php on line 15
+[05-Dec-2017 01:43:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productType' in 'field list'' in /home/ubuntu/workspace/dbeach/final_project/main.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/main.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/dbeach/final_project/main.php(116): getBeachTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/main.php on line 15
+[05-Dec-2017 01:43:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productType' in 'field list'' in /home/ubuntu/workspace/dbeach/final_project/main.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/main.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/dbeach/final_project/main.php(116): getBeachTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/main.php on line 15
+[05-Dec-2017 01:44:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'beachName' in 'where clause'' in /home/ubuntu/workspace/dbeach/final_project/main.php:80
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/main.php(80): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/dbeach/final_project/main.php(135): displayProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/main.php on line 80
+[05-Dec-2017 01:49:03 UTC] PHP Fatal error:  Call to undefined function displayProducts() in /home/ubuntu/workspace/dbeach/final_project/main.php on line 134
+[05-Dec-2017 01:49:03 UTC] PHP Stack trace:
+[05-Dec-2017 01:49:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/final_project/main.php:0
+[05-Dec-2017 01:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND beachName LIKE 'black sand'' at line 1' in /home/ubuntu/workspace/dbeach/final_project/main.php:80
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/main.php(80): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/dbeach/final_project/main.php(134): displayBeaches()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/main.php on line 80
+[05-Dec-2017 03:43:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dbeach/final_project/admin.php on line 39
+[05-Dec-2017 03:43:04 UTC] PHP Stack trace:
+[05-Dec-2017 03:43:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dbeach/final_project/admin.php:0
+[05-Dec-2017 03:43:04 UTC] PHP   2. displayBeaches() /home/ubuntu/workspace/dbeach/final_project/admin.php:88
+[05-Dec-2017 17:41:05 UTC] PHP Parse error:  syntax error, unexpected '.', expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/dbeach/final_project/addbeach.php on line 70
+[05-Dec-2017 20:06:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Beach' at line 1' in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/deletebeach.php(39): PDO->query('DELETE FROM `fp...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php on line 39
+[05-Dec-2017 20:07:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TAco Beach' in 'where clause'' in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/deletebeach.php(39): PDO->query('DELETE FROM `fp...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php on line 39
+[05-Dec-2017 20:09:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Beach' at line 1' in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/deletebeach.php(39): PDO->query('DELETE FROM `fp...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php on line 39
+[05-Dec-2017 20:10:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Taco Beach' in 'where clause'' in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/deletebeach.php(39): PDO->query('DELETE FROM `fp...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php on line 39
+[05-Dec-2017 20:13:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Beach' at line 1' in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/deletebeach.php(39): PDO->query('DELETE FROM `fp...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php on line 39
+[05-Dec-2017 20:13:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Beach' at line 1' in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/deletebeach.php(39): PDO->query('DELETE FROM `fp...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php on line 39
+[05-Dec-2017 20:14:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Beach' at line 1' in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/deletebeach.php(39): PDO->query('DELETE FROM `fp...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php on line 39
+[05-Dec-2017 20:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Beach' at line 1' in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/deletebeach.php(39): PDO->query('DELETE FROM `fp...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/deletebeach.php on line 39
+[05-Dec-2017 20:44:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION heroku_c95c62d6327a93c.AVERAGE does not exist' in /home/ubuntu/workspace/dbeach/final_project/admin.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/dbeach/final_project/admin.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/dbeach/final_project/admin.php(126): displayAverage()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbeach/final_project/admin.php on line 64
+[08-Dec-2017 05:31:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/dbeach/final_project/main.php on line 95
