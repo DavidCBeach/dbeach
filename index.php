@@ -11,7 +11,6 @@
             <li><a href="/homework/homework2">Homework 2</a></li>
             <li><a href="/homework/homework3">Homework 3</a></li>
             <li><a href="/homework/homework4">Homework 4</a></li>
-            <li><a href="/homework/homework5">Homework 5</a></li>
         </ul>
 
     </body>
